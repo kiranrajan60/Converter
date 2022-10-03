@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Converter</h1>
+    <input type="number" id="user_input" placeholder="Enter the Amount">
+    <select name="currency" id="currency">
+        <option value="dollar">Dollar</option>
+        <option value="ruppees">Ruppees</option>
+    </select>
+    <button id="converter" onclick="convert()">Convert</button>
+    <div>
+        <h3 id="coverted_amount"></h3>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
